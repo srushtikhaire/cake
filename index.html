@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Shop</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f5;
+      color: #333;
+    }
+    header {
+      background: #ff6f91;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1608198093002-de0e09c7cd3e') center/cover no-repeat;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #ff6f91;
+      margin-bottom: 20px;
+    }
+    .cakes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .cake {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .cake img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .cake h3 {
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff6f91;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sweet Treats Cake Shop</h1>
+    <nav>
+      <a href="#cakes">Cakes</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Delicious Cakes for Every Occasion</h2>
+  </section>
+
+  <section class="section" id="cakes">
+    <h2>Our Cakes</h2>
+    <div class="cakes">
+      <div class="cake">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Cake">
+        <h3>Chocolate Delight</h3>
+        <p>Rich chocolate layers with creamy frosting.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="cake">
+        <img src="https://images.unsplash.com/photo-1605479486797-2d72ec62677c" alt="Strawberry Cake">
+        <h3>Strawberry Dream</h3>
+        <p>Fresh strawberries with vanilla cream.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="cake">
+        <img src="https://images.unsplash.com/photo-1565958011703-44e5020c1d79" alt="Vanilla Cake">
+        <h3>Vanilla Classic</h3>
+        <p>Light vanilla sponge with buttercream.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>We bake fresh, delicious cakes with love and the finest ingredients. From birthdays to weddings, Sweet Treats Cake Shop is here to make your celebrations sweeter.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@sweettreats.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Visit us: 123 Main Street, Your City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sweet Treats Cake Shop | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
